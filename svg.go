@@ -16,7 +16,7 @@ const (
 	defaultFont = "Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace"
 	header      = "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n"
 	watermark   = "<!-- Created with ASCIItoSVG -->\n"
-	svgTag      = "<svg width=\"%dpx\" height=\"%dpx\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n"
+	svgTag      = "<svg width=\"%dpx\" height=\"%dpx\" style=\"background-color: white\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n"
 
 	// Path related tag.
 	pathTag       = "    %s<path id=\"%s%d\" %sd=\"%s\" />%s\n"

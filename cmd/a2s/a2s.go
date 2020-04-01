@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/asciitosvg/asciitosvg"
+	"github.com/sgmenda/asciitosvg"
 )
 
 const logo = ` .-------------------------.
